@@ -9,7 +9,7 @@ serverhost=$(ifconfig | grep "inet 192" | awk '{ print $2 }')
 # log 文件路径
 server_log="${currpath}/server-monitor-log.txt"
 # 通知电邮列表
-adminemail='327216245@qq.com'
+adminemail=''
 # 发通知电邮间隔时间
 now=$(date +%s)
 # *** config end ***

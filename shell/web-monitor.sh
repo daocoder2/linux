@@ -2,7 +2,7 @@
 
 currpath=$(cd $(dirname "$0"); pwd)
 websites=("192.168.8.12:2000")                                 # 要监控的网站
-adminmail='327216245@qq.com'                                   # 管理员电邮
+adminmail=''                                   # 管理员电邮
 expire=3600                                                    # 每次发送电邮的间隔秒数
 now=$(date +%s)
 
