@@ -6,9 +6,9 @@
 </div>
 
 
-# linux命令之iptables
+# linux命令之ip
 
-# 1、iptables命令简介
+# 1、ip命令简介
 
 ip 是个命令， ip 命令的功能很多！基本上它整合了 ifconfig 与 route 这两个命令，不过 ip 的功能更强大。
 
