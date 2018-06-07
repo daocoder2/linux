@@ -26,12 +26,12 @@ xargs命令是给其他命令传递参数的一个过滤器，也是组合多个
 	2017-12-25 02:03  can access, but the httpcode is 502 
 	2017-12-26 02:03 192.168.8.12 （芜湖 213 8501 340200） can access, but the httpcode is 502
 
-1、-a file：从文件中读入作为sdtin。
+1、-a file：从文件中读入作为stdin。
 
 	[root@localhost sysshell]# xargs -a 12-web-http-log.txt echo
 	2017-12-24 02:03 can access, but the httpcode is 502 2017-12-25 02:03 can access, but the httpcode is 502 2017-12-26 02:03 192.168.8.12 （芜湖 213 8501 340200） can access, but the httpcode is 502
 
-2、-0：当sdtin含有特殊字元时候（换行），将其当成一般字符，像/'空格等。
+2、-0：当stdin含有特殊字元时候（换行），将其当成一般字符，像/'空格等。
 
 	[root@localhost sysshell]# xargs -0 -a 12-web-http-log.txt echo
 	2017-12-24 02:03  can access, but the httpcode is 502 
