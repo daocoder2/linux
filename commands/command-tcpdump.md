@@ -28,6 +28,8 @@ tcpdump命令是基于unix系统的命令行的数据报嗅探工具，可以抓
 - RX-OK RX-ERR RX-DRP RX-OVR：正确接收数据报的数量以及发生错误、流式、碰撞的总数。
 - TX-OK TX-ERR TX-DRP TX-OVR：正确发送数据报的数量以及发生错误、流式、碰撞的总数。
 
+---
+
 	[root@centos daocoder]# tcpdump --help
 	tcpdump version 4.9.0
 	libpcap version 1.5.3
